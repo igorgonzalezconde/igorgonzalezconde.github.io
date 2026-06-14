@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La poética de los juegos de rol de mesa | PhD Candidate Research</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;1,400&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+   <style>
+    :root { --gold: #f0E7DA; --dark: #050505; --gray: #121212; }
+    
+    body { 
+        font-family: 'Inter', sans-serif; 
+        background-color: #f0E7DA; 
+        color: black; 
+        scroll-behavior: smooth; 
+    }
+
+    h1, h2, h3, h4, .serif { font-family: 'Cormorant Garamond', serif; }
+    .gold-text { color: var(--gold); }
+    
+    /* Estilo del botón adaptado al fondo claro */
+.btn-action { 
+    border: 1px solid #74070E; /* Borde rojo borgoña */
+    background-color: white;   /* Fondo blanco por defecto */
+    color: black;              /* Texto negro por defecto */
+    padding: 0.6rem 1.2rem; 
+    font-size: 0.75rem; 
+    text-transform: uppercase; 
+    letter-spacing: 0.15em;
+    transition: all 0.4s ease;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Efecto al pasar el ratón (Hover) */
+.btn-action:hover { 
+    background-color: #74070E; /* Fondo rojo borgoña */
+    color: white;              /* Texto pasa a blanco */
+    box-shadow: 0 4px 15px rgba(116, 7, 14, 0.3); /* Sombra suave roja */
+}
+    /* Fondo Doré */
+    .hero-bg {
+        background: linear-gradient(to bottom, rgba(5,5,5,0.9), rgba(5,5,5,0.9)), 
+            url('img/fondo.jpg');
+        background-size: 100% 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+</style>
+</head>
+<body>
+
+    <nav class="fixed w-full z-50 bg-[#74070E] border-b border-gold/20 p-4 backdrop-blur-md">
+        <div class="container mx-auto flex justify-between items-center text-[10px] tracking-[0.2em] uppercase">
+            <div class="gold-text font-bold">La poética de los juegos de rol de mesa</div>
+            <div class="hidden lg:flex space-x-8">
+                <a href="#investigacion" class="hover:text-white transition">Investigación</a>
+                <a href="#outputs" class="hover:text-white transition">Congresos</a>
+                <a href="#sobre-mi" class="hover:text-white transition">Sobre mí</a>
+                <a href="#contacto" class="hover:text-white transition">Contacto</a>
+            </div>
+            <div class="flex space-x-3 items-center">
+    <a href="es.html" class="hover:text-white transition">ES</a>
+    <span class="opacity-20">|</span>
+</div>
+    </nav>
+
+    <header class="h-[75vh] flex items-center justify-center px-6 hero-bg">
+        <div class="text-center">
+            <p class="uppercase tracking-[0.4em] text-[10px] text-white md:mt-[40px] mb-4 opacity-50">Teoría Literaria · Investigación Doctoral</p>
+            <h1 class="text-5xl md:text-8xl text-white md:mt-[50px] mb-4">La Poética de los <br class="hidden md:inline"> Juegos de Rol de mesa</h1>
+            <p class="gold-text italic text-xl md:text-2xl mt-12 md:mt-[40px] mb-8">Estudio literario de los manuales</p>
+            <div class="h-16 w-px bg-gold mx-auto opacity-50"></div>
+        </div>
+    </header>
+
+    <section id="investigacion" class="py-32 container mx-auto px-6 max-w-5xl">
+        <h2 class="text-4xl dark-text mb-16 italic text-center">Metodología</h2>
+        <div class="grid md:grid-cols-4 gap-16">
+            <div class="text-center space-y-4">
+                <div class="text-5xl opacity-20 serif italic">I</div>
+                <h3 class="text-2xl text-black">El Género Literario</h3>
+                <p class="text-sm opacity-60 leading-relaxed">Definir los géneros teóricos, los géneros históricos y los subgéneros.</p>
+            </div>
+            <div class="text-center space-y-4">
+                <div class="text-5xl opacity-40 serif italic">II</div>
+                <h3 class="text-2xl text-black">Mundos secundarios</h3>
+                <p class="text-sm opacity-60 leading-relaxed">Establecer una metodología para realizar la taxonomía de los juegos de rol.</p>
+            </div>
+            <div class="text-center space-y-4">
+                <div class="text-5xl opacity-60 serif italic">III</div>
+                <h3 class="text-2xl text-black">Verosimilitud</h3>
+                <p class="text-sm opacity-60 leading-relaxed">Analizar la relación entre las reglas del juego de rol y la verosimilitud.</p>
+            </div>
+            <div class="text-center space-y-4">
+                <div class="text-5xl opacity-80 serif italic">IV</div>
+                <h3 class="text-2xl text-black">Narratología</h3>
+                <p class="text-sm opacity-60 leading-relaxed">Explorar las particularidades narrativas de los juegos de rol.</p>
+            </div>
+        </div>
+    </section>
+    <section id="outputs" class="py-32 bg-shadow px-6">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-4xl dark-text mb-12 italic border-b border-white/5 pb-4">Difusión y Congresos</h2>
+            <div class="space-y-10">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center group">
+                    <div>
+                        <span class="text-[10px] tracking-widest opacity-40 uppercase">2023 · Myth in the Arts VII</span>
+                        <h4 class="text-xl text-dark group-hover:gold-text transition italic">Los Juegos de Rol como Herramienta de Transmisión de los Mitos Vascos Adur y Aquelarre</h4>
+                        <p class="text-sm opacity-50">Se exploró la utilidad de los juegos de rol como medio de transmisión de mitos y tradiciones culturales.</p>
+                    </div>
+                    <a href="docs/Myths_2023.pdf" class="btn-action mt-4 md:mt-0">
+                        <i class="fas fa-download mr-2"></i> PPT
+                    </a>
+                </div>
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center group">
+                    <div>
+                        <span class="text-[10px] tracking-widest opacity-40 uppercase">2022 · Proyecto Fin de Master de Literatura Comparada y Estudios Literarios</span>
+                        <h4 class="text-xl text-dark group-hover:gold-text transition italic">Hacia una Poética de los Juegos de Rol de Mesa. Una Visión Aristotélica.</h4>
+                        <p class="text-sm opacity-50">Se observó como los preceptos aristotélicos de la <i>Poética</i> perviven en los juegos de rol de mesa.</p>
+                    </div>
+                    <a href="docs/Poetica_rol.pdf" class="btn-action mt-4 md:mt-0">
+                        <i class="fas fa-download mr-2"></i> PPT
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+                </div>
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="py-32 container mx-auto px-6 max-w-6xl">
+        <div class="grid md:grid-cols-2 gap-20 items-start">
+            
+            <div class="space-y-8">
+                <div class="flex items-center space-x-6">
+                    <div class="w-32 h-32 border border-gold p-1">
+                        <img src="img/Foto_Igor.jpg" alt="Foto de perfil" 
+                            class="grayscale hover:grayscale-0 transition-all duration-700 w-full h-full object-cover relative z-10 cursor-pointer">
+                    </div>
+                    <div>
+                        <h2 class="text-3xl dark-text italic">Sobre el investigador</h2>
+                        <p class="text-xs uppercase tracking-tighter opacity-50">PhD Candidate @ UPV/EHU</p>
+                    </div>
+                </div>
+                <div class="text-dark-300 space-y-6 text-justify">
+    <p>
+        Estudiante predoctoral en Literatura Comparada y Estudios Literarios en la Universidad del País
+Vasco (UPV/EHU). Empecé a desarrollar el tema en el trabajo de fin de master <i>Hacia una poética de los juegos de rol de mesa: una visión aristotélica</i>. En él analicé las similitudes entre
+los juegos de rol de mesa y la tragedia griega, explicando cómo en ambos se puede dar la
+catarsis. De este modo, concluí que los juegos de rol pueden ser considerados un producto
+literario y ser analizados desde la teoría literaria.
+    </p>
+    
+    <p>
+        Antes de dedicarme a la literatura cursé los estudios de Ingeniería Química, lo que me ayuda a
+emplear técnicas propias de la investigación científica en la literatura. No es raro encontrarse
+en mis investigaciones literarias diagramas o esquemas más propios de un artículo científico. Si
+bien puede resultar un contraste llamativo, creo que aporta claridad a la hora de abordar
+temas complejos de la teoría literaria.
+    </p>
+    
+    <p>
+        No sorprenderá a nadie saber que soy un asiduo de los juegos de rol. Llevo más de 10 años
+jugando a ellos y he tenido 3 grupos de rol con los que hemos explorado juegos de fantasía,
+terror y ciencia ficción: <i>Dragones y Mazmorras, Leyenda de los 5 anillos, Vampiro, La llamada
+de Cthulhu, Star Wars</i>… Me encantaría que la gente compartiese mi pasión por estos juegos,
+tanto desde un punto de vista académico como lúdico.
+    </p>
+</div>
+                <p class="text-sm opacity-60">
+                    Bajo la dirección de la <b>Dra. Isabel Muguruza Roca</b> (UPV/EHU) y la <b>Dra. Natalia Vara Ferrero</b> (UPV/EHU).
+                </p>
+                
+                <div class="flex space-x-6 text-xl pt-4">
+                    <a href="www.linkedin.com/in/igor-gonzalez-conde-63b76274" target="_blank" class="hover:gold-text transition"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.researchgate.net/profile/Igor-Gonzalez-Conde-2" target="_blank" class="hover:gold-text transition"><i class="fas fa-graduation-cap"></i></a>
+                    <a href="https://orcid.org/0000-0002-6900-2413" target="_blank" class="hover:gold-text transition"><i class="fab fa-orcid"></i></a>
+                    <a href="https://www.goodreads.com/user/show/56289770-igor-gonzalez-conde" target="_blank" class="hover:gold-text transition"><i class="fab fa-goodreads-g"></i></a>
+                    <a href="https://www.instagram.com/igorgc.sheroes/" target="_blank" class="hover:gold-text transition"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+           <div id="contacto" class="bg-white p-10 border border-gray-200 shadow-md">
+    <h3 class="text-2xl mb-8 italic text-gray-900 font-serif">Contacto Académico</h3>
+    
+    <form action="https://formspree.io/f/xpqekjdo" method="POST" class="space-y-6">
+        <input type="text" name="name" placeholder="Nombre completo" 
+               class="w-full bg-transparent border-b border-gray-300 py-3 focus:border-[#74070E] outline-none transition text-sm text-gray-900 placeholder:text-gray-400" required>
+        
+        <input type="email" name="email" placeholder="Email institucional" 
+               class="w-full bg-transparent border-b border-gray-300 py-3 focus:border-[#74070E] outline-none transition text-sm text-gray-900 placeholder:text-gray-400" required>
+        
+        <textarea name="message" rows="4" placeholder="Breve mensaje o propuesta de colaboración" 
+                  class="w-full bg-transparent border-b border-gray-300 py-3 focus:border-[#74070E] outline-none transition text-sm text-gray-900 placeholder:text-gray-400" required></textarea>
+        
+        <button type="submit" class="btn-action w-full">Enviar Correo</button>
+    </form>
+</div>
+        </div>
+    </section>
+
+    <footer class="py-12 border-t border-white/5 text-center">
+        <p class="text-[10px] tracking-[0.4em] opacity-30 uppercase">
+            UPV/EHU · 2026
+        </p>
+    </footer>
+
+    <script>
+        const observerOptions = { threshold: 0.1 };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('visible');
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('section').forEach(section => observer.observe(section));
+    </script>
+</body>
+</html>

@@ -24,7 +24,9 @@ Actualmente, el proyecto se encuentra en fase de desarrollo de los capítulos ce
 ## Dirección Académica
 * **Directoras:** Isabel Muguruza Roca (UPV/EHU) y Natalia Vara Ferrero (UPV/EHU).
 * **Departamento:** Filología e Historia.
- ---
-*Sitio web generado con HTML/Tailwind CSS y alojado en GitHub Pages.*
+
 ## Difusión y Congresos
 Este repositorio también sirve como repositorio de los materiales (PPTs y abstracts) presentados en congresos académicos desde 2022. Puedes acceder a ellos a través de la sección de **Outputs** en la página web oficial del proyecto.
+ 
+ ---
+*Sitio web generado con HTML/Tailwind CSS y alojado en GitHub Pages.*
